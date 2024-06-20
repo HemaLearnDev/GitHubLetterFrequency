@@ -1,6 +1,6 @@
 # GitHubLetterFrequency
 
-GitHubLetterFrequency is a .NET Core console application designed to analyze the letter frequency in the files of a specified GitHub repository. This tool uses the Octokit library to interact with the GitHub API and fetch repository contents.
+GitHubLetterFrequency is a .NET Core console application designed to analyze the letter frequency in the files of a specified GitHub repository lodash/lodash. This tool uses the Octokit library to interact with the GitHub API and fetch repository contents.
 
 ## Features
 
@@ -27,5 +27,5 @@ GitHubLetterFrequency is a .NET Core console application designed to analyze the
 Ensure you have a GitHub Personal Access Token stored in your environment variables. This token should be configured as My_GITHUB_TOKEN.
 
 On Windows, you can set it using the Command Prompt or PowerShell:
-setx GITHUB_TOKEN "your_personal_access_token"
+setx My_GITHUB_TOKEN "your_personal_access_token"
 
